@@ -2,7 +2,8 @@
     background-color: #3F41DB;
     color: white;
     display: flex;
-    justify-content: center
+    justify-content: center;
+    position: relative;
 }
 
 .headerContainer{
@@ -34,10 +35,50 @@
 }
 
 .headerBtn {
-    background-color: #DBBE40;
+    background-color: #1B1D8F;
     color: white;
     font-weight: 500;
     border: none;
     padding: 10px;
     cursor: pointer;
+}
+
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid #DBBE40;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headerIcon{
+    color:lightgray;
+}
+
+.headerSearchItem{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+
+.headerSearchText{
+    color: lightgray;
+    cursor: pointer;
+}
+
+.date{
+    position: absolute;
+    top: 50px;
 }
