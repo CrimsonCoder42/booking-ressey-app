@@ -1,6 +1,6 @@
 .navbar{
     height: 50px;
-    background-color: #509ADB;
+    background-color: #3F41DB;
     display: flex;
     justify-content: center;
   }
@@ -23,5 +23,6 @@
     border: none;
     padding: 5px 10px;
     cursor: pointer;
-    color: #509ADB;
+    color: white;
+    background-color: #DBBE40;
   }
